@@ -31,4 +31,8 @@ if (process.env.NODE_ENV === "production") {
 app.listen(port, () => {
     console.log('Server is up and running in', port);
 })
+const cors = require('cors');
+app.use(cors({
+  origin: '*'
+}));
 
