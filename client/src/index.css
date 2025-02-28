@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+    background-color: #e1e1e1;
+}
+
+input, textarea {
+    min-height: 40px !important;
+    border: 1px solid #6a6a6a !important;
+    border-radius: 5px !important;
+}
+
+input:focus, textarea {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.ant-form-item {
+    margin-bottom: 0 !important;
+}
+
+i {
+    font-size: 18px !important;
+}
